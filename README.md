@@ -215,7 +215,7 @@ Total Flights vs. Delays:
 ![Dashboard 9](https://user-images.githubusercontent.com/99618784/182963242-01a9ec6c-4767-4bee-8537-b3834bad1bb8.png)
 
 
-While looking at the images below you may notice that Thursdays and Fridays, for outbound domestic flights, are more likely to be delayed out of BWI and DCA over any other day in the week. IAD holds the lowest amount of delayed flights overall for our DMV airports. We would also like to point out that Saturdays are the best days to fly out with a less likely hood for delays. 
+While looking at the images below you may notice that Thursdays and Fridays, for outbound domestic flights, are more likely to be delayed out of BWI and DCA over any other day in the week. IAD holds the lowest amount of delayed flights overall for our DMV airports. We would also like to point out that Saturdays are the best days to fly out with a less likelihood for delays. 
 
 ![Delays By Weekday (1)](https://user-images.githubusercontent.com/99618784/182730980-4b5cc5b4-1999-4ed3-84cb-45f6b5e3924b.png)
 
