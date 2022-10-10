@@ -17,7 +17,7 @@ For our project we are looking at the efficiency of local DC, Maryland, and Virg
 
 ## Data Source:
 
-We worked with a couple websites to pull data for our project. The United States Department of Transportation provided statistics on avaiation data that we filtered through to grab specific inputs for our analysis. The National Oceanic and Atomspheric Administration provided daily weather summaries used in our analysis as well, as it coincideds with delays.
+We worked with a couple websites to pull data for our project. The United States Department of Transportation provided statistics on avaiation data that we filtered through to grab specific inputs for our analysis. The National Oceanic and Atomspheric Administration provided daily weather summaries used in our analysis as well, as it coincides with delays.
 
 [Bureau of Transportation Statistics (BTS)](https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGK&QO_fu146_anzr=b0-gvzr)
 
@@ -84,7 +84,7 @@ The information that was provided from our trusted sources had millions of data 
 
 ![dataframe dpcd](https://user-images.githubusercontent.com/99618784/180104535-ed617892-2a0a-49bd-9761-721e36803d32.PNG)
 
-We filled state abreviations with state names and orgainzed each state by region. Our analysis is specifically looking at outbound domestic flights so we simplified the destination to regions, to include Puerto Rico and the U.S Virgin Islands as non-continental regions. Hawaii and Alaska are included as part of the Western region. In order to do so, we had to create a loop that would run through each dataframe and drop the state abreviation column and only show the full state name:
+We filled state abreviations with state names and orgainzed each state by region. Our analysis is specifically looking at outbound domestic flights so we simplified the destination to regions, to include Puerto Rico and the U.S Virgin Islands as non-continental regions. Hawaii and Alaska are included as part of the Western region. In order to do so, we had to create a loop that would run through each dataframe and drop the state abbreviation column and only show the full state name:
 
 ![loop dpcd](https://user-images.githubusercontent.com/99618784/180104416-6be151bb-936e-498b-9fe3-859f15c2988c.PNG)
 
@@ -204,7 +204,7 @@ When the weather data was added the results were similar accuracy, precision, an
 
 ![Capture2](https://user-images.githubusercontent.com/57120024/182505600-543461f9-0944-4a12-870f-ef035a7d8a30.PNG)
 
-Looking forward we belive the next steps would be is to find data for each airport on othe other delay categories, Carrier delay, Nas delay, Security delay, Lateaircraft delay. Incorporate them into the decision tree model and add approtiate weights to each. 
+Looking forward we belive the next steps would be is to find data for each airport on othe other delay categories, Carrier delay, Nas delay, Security delay, Late aircraft delay. Incorporate them into the decision tree model and add appropriate weights to each. 
 
 ## Dashboard
 
